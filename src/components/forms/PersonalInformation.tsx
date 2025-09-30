@@ -50,7 +50,7 @@ const PersonalInformation = () => {
         className="grid gap-4 grid-cols-2"
         onSubmit={(...args) => void form.handleSubmit(onSubmit)(...args)}
       >
-        <div className="grid col-span-2 grid-cols-2 gap-4">
+        <div className="grid col-span-2 md:grid-cols-2  gap-4">
           <FormField
             control={form.control}
             name="name"

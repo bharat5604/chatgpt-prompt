@@ -95,7 +95,7 @@ const SituationDescription = () => {
         className="grid gap-4 grid-cols-2"
         onSubmit={(...args) => void form.handleSubmit(onSubmit)(...args)}
       >
-        <div className="grid col-span-2 grid-cols-2 gap-4 items-center">
+        <div className="grid col-span-2 sm:grid-cols-2 gap-4 items-center">
           <FormField
             control={form.control}
             name="currentFinancialSituation"
@@ -128,7 +128,7 @@ const SituationDescription = () => {
             </Button>
           </div>
         </div>
-        <div className="grid col-span-2 grid-cols-2 gap-4 items-center">
+        <div className="grid col-span-2 sm:grid-cols-2 gap-4 items-center">
           <FormField
             control={form.control}
             name="employmentCircumstances"
@@ -161,7 +161,7 @@ const SituationDescription = () => {
             </Button>
           </div>
         </div>
-        <div className="grid col-span-2 grid-cols-2 gap-4 items-center">
+        <div className="grid col-span-2 sm:grid-cols-2 gap-4 items-center">
           <FormField
             control={form.control}
             name="reasonForApplying"
