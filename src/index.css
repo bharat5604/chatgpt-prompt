@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1677ff;
+  --color-primary-foreground: #ffff;
+  --color-destructive: #c00;
+}
+
+.react-datepicker-wrapper {
+  display: block !important;
+}
+
+body {
+  background-color: #e4eaff;
+}
