@@ -119,6 +119,8 @@ async function sendMessage(textarea: string) {
 
 ---
 
+**I kept translations for only a few fields, just to demonstrate that this website supports both direction and translation.:**
+
 ## Useful Links
 
 - OpenAI API keys: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
@@ -129,7 +131,7 @@ async function sendMessage(textarea: string) {
 
 ## Troubleshooting
 
-- If you see `ERR_OSSL_EVP_UNSUPPORTED` or similar crypto errors when running Vite, ensure your **Node version** matches the required versions listed above.
+- If you see any errors when running Vite, ensure your **Node version** matches the required versions listed above.
 - If translations are not loading, check the RTK Query service logs and ensure the translation JSON files are available under the path expected by the service.
 
 ---
