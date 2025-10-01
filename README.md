@@ -14,7 +14,7 @@ A Vite + React starter with the following features:
 - Form handling and validation: **React Hook Form** + **Zod** for schema validation.
 - Integration with **OpenAI (GPT)** for text completion using the Chat Completions endpoint (`https://api.openai.com/v1/chat/completions`).
 
-> ⚠️ **Important security note:** This project currently calls the OpenAI API from the **client (frontend)** using an environment variable `VITE_OPEN_AI`. **This exposes your secret key** to users and is highly insecure for production. The correct approach is to call OpenAI from a secure backend endpoint. The current client-side usage is only for the assignment and demo purposes.
+> ⚠️ **Important security note:** This project currently calls the OpenAI API from the **client (frontend)** using an environment variable `VITE_OPEN_AI`. **This exposes your secret key** to users and is highly insecure for production. The correct approach is to call OpenAI from a secure backend endpoint. The current client-side usage is only for the demo purposes.
 
 ---
 
