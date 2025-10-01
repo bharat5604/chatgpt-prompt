@@ -1,9 +1,9 @@
 import { useGetLocalizedContentQuery } from "../redux/service/strapiSlice";
 import { useLocalization } from "./useLocalization";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export function useLocalizedContent() {
-  const [start, setStart] = useState(0);
+  const [start, _] = useState(0);
   const limit = 100;
 
   const { selectedLanguage } = useLocalization();
@@ -18,20 +18,6 @@ export function useLocalizedContent() {
       start,
       limit,
     });
-
-  // When language changes → reset pagination
-  useEffect(() => {
-    setStart(0);
-  }, [selectedLanguage]);
-
-  // Example: auto-increment pagination when data arrives
-  useEffect(() => {
-    if (isSuccess && data) {
-      if (start + limit < (data.meta?.pagination?.total ?? 0)) {
-        setStart((old) => old + limit);
-      }
-    }
-  }, [isSuccess, data, start, limit]);
 
   return {
     data,
