@@ -119,7 +119,9 @@ async function sendMessage(textarea: string) {
 
 ---
 
-**I kept translations for only a few fields, just to demonstrate that this website supports both direction and translation.:**
+**I kept translations for only a few fields, just to demonstrate that this website supports both direction and translation**
+
+---
 
 ## Useful Links
 
