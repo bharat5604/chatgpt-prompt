@@ -123,7 +123,7 @@ async function sendMessage(textarea: string) {
 
 - OpenAI API keys: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 - OpenAI Chat Completions: `https://api.openai.com/v1/chat/completions`
-- Vercel Link for this project: `https://chatgpt-prompt-orcin.vercel.app`
+- Vercel Link for this project: [https://chatgpt-prompt-orcin.vercel.app](https://chatgpt-prompt-orcin.vercel.app)
 
 ---
 
